@@ -4,7 +4,7 @@
 //
 //  Created by Dale Musser on 7/9/18.
 //  Copyright © 2018 Dale Musser. All rights reserved.
-//
+//  Cloned into Kevin Brennan's Repository
 
 import UIKit
 

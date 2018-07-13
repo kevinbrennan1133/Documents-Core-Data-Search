@@ -4,11 +4,13 @@
 //
 //  Created by Dale Musser on 7/9/18.
 //  Copyright © 2018 Dale Musser. All rights reserved.
-//
+//  Cloned into Kevin Brennan's Repository 
 
 import UIKit
 
 class DocumentViewController: UIViewController {
+   
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var contentTextView: UITextView!
     
@@ -18,7 +20,9 @@ class DocumentViewController: UIViewController {
         super.viewDidLoad()
         
         title = ""
-
+        
+       
+        
         if let document = document {
             let name = document.name
             nameTextField.text = name
@@ -26,6 +30,10 @@ class DocumentViewController: UIViewController {
             title = name
         }
     }
+    
+   
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
